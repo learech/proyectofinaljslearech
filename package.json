@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/learech/proyectofinaljslearech/issues"
   },
-  "homepage": "https://github.com/learech/proyectofinaljslearech#readme"
+  "homepage": "https://github.com/learech/proyectofinaljslearech#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.26"
+  }
 }
