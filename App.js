@@ -12,12 +12,12 @@ export const mostrarProductos = async () => {
     div.innerHTML += `<div class="card-image">
                         <img src=${producto.img}>
                         <span class="card-title">${producto.nombre}</span>
-                        <a class="btn-floating halfway-fab wabes-effect waves-light green" id=boton${producto.id}><i class="material-icons">add_shopping_cart</i></a>
+                        <a class="btn-floating halfway-fab wabes-effect waves-light blue" id=boton${producto.id}><i class="material-icons">add_shopping_cart</i></a>
                       </div>
                       <div class="card-content">
                           <p>${producto.desc}</p>
-                          <p>Presentación: ${producto.presentacion}</p>
-                          <p>$${producto.precio}</p>
+                          <p>Tipo: ${producto.categoria}</p>
+                          <p>Precio $${producto.precio}</p>
                       </div>
                       `
     contenedorProductos.appendChild(div);

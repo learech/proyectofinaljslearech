@@ -8,9 +8,9 @@ let carritoStorage = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   swal({
-    title: 'Bienvenido a tienda EL ENVASE',
-    text: `Tenemos los mejores productos de limpieza`,
-    icon: `./public/images/jl_08.jpg`,
+    title: 'PORTEROS FUTSAL',
+    text: `Todo para proteger a los arqueros que más se golpean`,
+    icon: `./public/images/descarga.jpg`,
     button: `Entrar`,    
     time: 1000
   })

@@ -15,10 +15,10 @@ img {
 }
 
 header {
-  background-image: url("../images/imagen_header.jpg");
+  background-image: url("../images/palomito.jpg");
   background-repeat: repeat;
   background-position: center center;
-  background-size: cover;
+  
   
   display: flex;
   justify-content: space-between;
@@ -28,8 +28,8 @@ header {
 }
 
 h1 {
-  background-color: white;
-  color:#146c43;
+  background-color: rgb(39, 192, 197);
+  color:#21146c;
   text-transform: uppercase;  
   font-size: 50px;  
   font-weight: bold;
@@ -41,7 +41,7 @@ h1 {
 
 #cesta-carrito {
   border: none;
-  color: #146c43;
+  color: #112cc4;
   font-size: 30px;
   background-color: white;
   border-radius: 50%;
@@ -51,8 +51,8 @@ h1 {
 
 #cesta-carrito:hover {
   cursor: pointer;
-  color: white;
-  background-color:#146c43
+  color: blue;
+  background-color:#e6e937
   ;
 }
 
@@ -84,7 +84,7 @@ p {
 select {
   display: inline;
   text-align: center;
-  border: 1px solid lightskyblue;
+  border: 1px solid rgb(36, 17, 209);
 }
 
 .modal-contenedor {
@@ -109,7 +109,7 @@ select {
 
 .modal-carrito {
   position: relative;
-  background-color: white;
+  background-color: rgb(191, 219, 219);
   min-width: 500px;
   padding: 20px;
   margin-top: -100%;
@@ -123,7 +123,7 @@ select {
 }
 
 .modal-carrito h3 {
-  color:#146c43;
+  color:#3213be;
   padding-bottom: 5px;
 }
 
@@ -132,7 +132,7 @@ select {
   top: 15px;
   right: 15px;
   font-size: 20px;
-  color:#146c43!important;
+  color:#3b1ee2!important;
   border: none;
   background-color: white;
 }
@@ -150,7 +150,7 @@ select {
 }
 
 .card .card-image .card-title {
-  color:#146c43;
+  color:#281bdf;
   position: unset
 }
 
